@@ -1,0 +1,553 @@
+header.page-header.type14 {
+    background-color: #0f0f0f;
+    position: relative;
+    border: 0;
+    z-index: 4;
+}
+header.page-header.type14 .header.content {
+    display: block;
+    vertical-align: middle;
+    padding: 30px 85px 33px;
+    max-height: 120px;
+}
+header.page-header.type14 .header.content > .logo {
+    display: block;
+    padding: 0 15px;
+    margin: 0 50px 0 0;
+    float: left;
+    z-index: 6;
+}
+header.page-header.type14 .logo img {
+    height: 57px;
+    width: auto;
+}
+header.page-header.type14 .panel.header {
+    position: absolute;
+    right: 300px;
+    top: 50%;
+    margin-top: -16px;
+    z-index: 6;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 !important;
+    width: auto;
+}
+header.page-header.type14 .panel.header .top-panel {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+header.page-header.type14 .panel.header .bottom-panel {
+    display: inline-block;
+    vertical-align: middle;
+}
+header.page-header.type14 .panel.header .links {
+    list-style: none;
+    padding: 0;
+    color: #fff;
+    font-family: "Oswald";
+    letter-spacing: 1px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+header.page-header.type14 .panel.header .links > li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+header.page-header.type14 .panel.header .links > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+header.page-header.type14 .panel.header .links > li > a:hover {
+    color: #fff;
+}
+header.page-header.type14 .panel.header .links > li > *:not(.no-display):not(div) {
+    padding: 0 8px;
+}
+header.page-header.type14 .panel.header .links > li:first-child > * {
+    padding-left: 0;
+}
+header.page-header.type14 .panel.header .search-area {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+}
+header.page-header.type14 .search-area .search-toggle-icon {
+    font-family: "Oswald";
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+header.page-header.type14 .search-area .search-toggle-icon span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 3px;
+}
+header.page-header.type14 .search-area .search-toggle-icon i.porto-icon-search {
+    margin-right: 10px;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+}
+header.page-header.type14 i.porto-icon-search:before {
+    content: "\f880";
+}
+header.page-header.type14 .panel.header .block-search {
+    display: none;
+    position: absolute;
+    top: -7px;
+    right: 0;
+    left: auto;
+    width: 300px;
+    margin: 0;
+}
+header.page-header.type14 .block-search input {
+    background-color: rgba(0,0,0,0.85);
+    border: 1px solid #ccc;
+    font-family: "Oswald";
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #ccc;
+    min-width: 300px;
+}
+header.page-header.type14 .block-search .action.search:before {
+    content: "\f880";
+    color: inherit;
+}
+header.page-header.type14 .block-search .action.search {
+    width: 40px;
+    text-align: center;
+    color: #fff;
+}
+header.page-header.type14 .minicart-wrapper {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    background-color: #0f0f0f;
+    height: 100%;
+    width: 280px;
+    text-align: center;
+}
+header.page-header.type14 .minicart-wrapper.active {
+    position: fixed;
+    height: 120px;
+}
+header.page-header.type14 .minicart-wrapper .action.showcart {
+    display: block;
+    text-align: center;
+}
+header.page-header.type14 .minicart-wrapper .action.showcart:before {
+    content: "\f881";
+    color: #fff;
+    font-size: 25px;
+    line-height: 120px;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+header.page-header.type14 .minicart-wrapper .action.showcart .counter.qty {
+    position: static;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    width: auto;
+    padding: 0;
+    font-family: "Oswald";
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+header.page-header.type14 .minicart-wrapper .action.showcart .counter-number {
+    display: inline-block;
+    vertical-align: middle;
+}
+header.page-header.type14 .minicart-wrapper .action.showcart .counter-label {
+    height: auto;
+    width: auto;
+    position: static;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin: 0;
+}
+header.page-header.type14 .minicart-wrapper .block-minicart {
+    right: 0;
+    top: 100%;
+    border: 0;
+    margin: 0;
+    width: 280px;
+    height: calc(100vh - 100%);
+    overflow: auto;
+    color: #000;
+}
+header.page-header.type14 .minicart-wrapper .block-minicart:before {
+    display: none;
+}
+header.page-header.type14 .minicart-wrapper .action.close {
+    opacity: 1;
+}
+header.page-header.type14 .minicart-wrapper .action.close:before {
+    font-size: 20px;
+    line-height: 40px;
+    color: #000;
+}
+header.page-header.type14 .block-header-customer-login {
+    border: 0;
+    margin-top: 20px;
+}
+header.page-header.type14 .block-header-customer-login button {
+    font-family: "Oswald";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+header.page-header.type14 .block-header-customer-login input {
+    font-family: "Oswald";
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #000;
+}
+header.page-header.type14 .block-header-customer-login:before {
+    border-bottom-color: #fff;
+    top: -10px;
+}
+header.page-header.type14 .minicart-wrapper.active {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+@media (min-width: 768px) {
+    header.page-header.type14 .panel.header .switcher {
+        font-family: "Oswald";
+        margin-right: 15px;
+        height: auto;
+        float: none;
+    }
+    header.page-header.type14 .switcher strong {
+        font-weight: 700;
+        font-size: 11px;
+        color: #fff;
+        line-height: 1;
+        text-transform: uppercase;
+        vertical-align: middle;
+        letter-spacing: 1px;
+    }
+    header.page-header.type14 .switcher .options .action.toggle:after {
+        line-height: 12px;
+        color: #fff;
+        vertical-align: middle;
+    }
+    header.page-header.type14 .switcher .options {
+        font-size: 12px;
+        display: block;
+    }
+    header.page-header.type14 .nav-sections {
+        border: 0;
+        display: block;
+        padding: 10px 0;
+    }
+    header.page-header.type14 .sw-megamenu.navigation li.level0.fullwidth > .submenu, header.page-header.type14 .sw-megamenu.navigation li.level0.staticwidth > .submenu {
+        border: 0;
+        margin-top: 20px !important;
+        padding: 20px;
+    }
+    header.page-header.type14 .sw-megamenu.navigation li.level0.classic > .submenu {
+        border: 0;
+        margin-top: 20px !important;
+    }
+    header.page-header.type14 .sw-megamenu.navigation li.level0.classic .submenu, header.page-header.type14 .sw-megamenu.navigation li.level0.classic .subchildmenu .subchildmenu {
+        padding: 5px 0;
+    }
+    header.page-header.type14 .nav-sections-item-content > .navigation {
+        z-index: initial;
+        margin-top: -1px;
+    }
+    header.page-header.type14 .navigation li.level0 > a {
+        height: 30px;
+        line-height: 30px;
+        color: #fff;
+        font-family: "Oswald";
+        font-weight: 700;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        padding: 0 10px;
+    }
+    header.page-header.type14 .navigation li.level0.parent > a:after {
+        line-height: 33px;
+    }
+    header.page-header.type14 .navigation li.level0:hover > a {
+        color: #fff;
+    }
+    header.page-header.type14 .navigation li.level0.parent > a {
+        position: relative;
+    }
+    header.page-header.type14 .navigation li.level0.parent > a:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border: 5px solid transparent;
+        border-bottom-color: #fff;
+        position: absolute;
+        left: 50%;
+        margin-left: -10px;
+        top: 100%;
+        margin-top: 10px;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.2s opacity;
+    }
+    header.page-header.type14 .navigation li.level0.parent:hover > a:before {
+        visibility: visible;
+        opacity: 1;
+    }
+    header.page-header.type14 .sw-megamenu.navigation li.level0.fullwidth > .submenu:before, header.page-header.type14 .sw-megamenu.navigation li.level0.staticwidth > .submenu:before, header.page-header.type14 .sw-megamenu.navigation li.level0.classic > .submenu:before {
+        width: 100%;
+        height: 20px;
+        content: "";
+        display: block;
+        position: absolute;
+        top: -20px;
+        left: 0;
+    }
+    header.page-header.type14 .sw-megamenu.navigation li.level0.fullwidth .submenu li.level1 > a, header.page-header.type14 .sw-megamenu.navigation li.level0.staticwidth .submenu li.level1 > a {
+        padding: 0;
+        border-bottom: 2px solid #000;
+        text-decoration: none;
+        font-family: "Oswald";
+        padding-bottom: 7px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    header.page-header.type14 .sw-megamenu.navigation li.level0.fullwidth .submenu li.level1 > a:hover > span, header.page-header.type14 .sw-megamenu.navigation li.level0.staticwidth .submenu li.level1 > a:hover > span {
+        text-decoration: none;
+    }
+    header.page-header.type14 .sw-megamenu.navigation li.level0.fullwidth .submenu a, header.page-header.type14 .sw-megamenu.navigation li.level0.staticwidth .submenu a {
+        padding: 10px;
+    }
+    header.page-header.type14 .navigation .level0.classic .submenu a {
+        font-family: "Oswald";
+        font-size: 11px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 20px;
+        line-height: 1;
+        white-space: nowrap;
+    }
+    header.page-header.type14 .navigation .level0.classic .submenu li:hover > a {
+        background-color: #000;
+        color: #fff;
+    }
+    header.page-header.type14 .sw-megamenu.navigation li.level0.classic .subchildmenu .subchildmenu {
+        top: -5px;
+    }
+    header.page-header.type14 .switcher .options ul.dropdown {
+        margin-top: 20px;
+    }
+    header.page-header.type14 .switcher .options .action.toggle.active, header.page-header.type14 .switcher .options .action.toggle.active:after, header.page-header.type14 .switcher .options .action.toggle.active strong {
+        color: #fff;
+    }
+}
+@media (min-width: 1440px) {
+    header.page-header.type14 .nav-sections {
+        margin-top: 2px;
+    }
+}
+@media (max-width: 1899px) {
+    header.page-header.type14 .header.content {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    header.page-header.type14 .header.content > .logo {
+        margin-right: 10px;
+    }
+    header.page-header.type14 .panel.header .search-area {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    header.page-header.type14 .panel.header .top-panel {
+        margin-right: 20px;
+    }
+}
+@media (max-width:1679px) {
+    header.page-header.type14 .panel.header .links > li.greet.welcome {
+        display: none;
+    }
+    header.page-header.type14 .panel.header .top-panel {
+        margin-right: 10px;
+    }
+    header.page-header.type14 .panel.header .search-area {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    header.page-header.type14 .navigation li.level0 > a {
+        padding: 0 10px;
+    }
+}
+@media (max-width: 1439px) {
+    header.page-header.type14 .header.content {
+        padding: 21.5px 25px;
+        margin: 0;
+        max-width: none;
+    }
+    header.page-header.type14 .minicart-wrapper.active {
+        height: 102px;
+    }
+    header.page-header.type14 .minicart-wrapper .action.showcart:before {
+        line-height: 100px;
+    }
+    header.page-header.type14 .header.content > .logo {
+        padding-left: 5px;
+    }
+}
+@media (max-width: 1359px) {
+    header.page-header.type14 .panel.header .top-panel {
+        display: block;
+        margin-bottom: 20px;
+        text-align: right;
+        margin-right: 0;
+        pointer-events: all;
+    }
+    header.page-header.type14 .panel.header .bottom-panel {
+        pointer-events: all;
+        padding-left: 12px
+    }
+    header.page-header.type14 .panel.header {
+        margin-top: -32px;
+        pointer-events: none;
+    }
+    header.page-header.type14 .nav-sections {
+        margin: 0;
+    }
+    header.page-header.type14 .minicart-wrapper.active {
+        height: 100px;
+    }
+}
+@media (max-width: 1199px) {
+    header.page-header.type14 .minicart-wrapper {
+        width: 150px;
+    }
+    header.page-header.type14 .panel.header {
+        right: 150px;
+    }
+    header.page-header.type14 .minicart-wrapper.active {
+        width: 280px;
+        padding-left: 130px;
+    }
+}
+@media (max-width: 991px) {
+    header.page-header.type14 .panel.header {
+        right: 170px;
+    }
+    header.page-header.type14 .minicart-wrapper.active {
+        width: 280px;
+        padding-left: 130px;
+    }
+}
+@media (max-width: 767px) {
+    header.page-header.type14 .header.content {
+        padding: 25px 15px;
+    }
+    header.page-header.type14 .nav-toggle {
+        line-height: 28px;
+        margin-right: 25px;
+    }
+    header.page-header.type14 .nav-toggle:before {
+        color: #ccc;
+    }
+    header.page-header.type14 .panel.header {
+        pointer-events: all;
+    }
+    header.page-header.type14 .search-area .search-toggle-icon {
+        display: none;
+    }
+    header.page-header.type14 .panel.header .block-search {
+        display: block;
+        position: relative;
+        top: 0;
+        width: auto;
+    }
+    header.page-header.type14 .block-search .label:before {
+        color: #fff;
+        margin: 0;
+        content: "\f880";
+    }
+    header.page-header.type14 .block-search .label.active:before {
+        color: #fff;
+    }
+    header.page-header.type14 .block-search input {
+        position: absolute;
+        right: -5px;
+        top: -6px;
+        margin: 0;
+        left: auto;
+        opacity: 0;
+        filter:alpha(opacity=0);
+        pointer-events: none;
+    }
+    header.page-header.type14 .block-search .label.active + .control input {
+        position: absolute;
+        display: block;
+        opacity: 1;
+        filter:alpha(opacity=100);
+        pointer-events: all;
+        z-index: 1;
+    }
+    header.page-header.type14 .panel.header .top-panel {
+        display: none;
+    }
+    header.page-header.type14 .panel.header {
+        margin-top: -13px;
+    }
+    header.page-header.type14 .navigation li.level0 > a {
+        padding: 13px 36px 13px 15px;
+    }
+    header.page-header.type14 .panel.header {
+        right: 60px;
+        margin-top: -13px;
+    }
+    header.page-header.type14 .minicart-wrapper.active {
+        height: 100px;
+        padding-left: 230px;
+    }
+    header.page-header.type14 .minicart-wrapper {
+        width: 50px;
+    }
+    header.page-header.type14 .minicart-wrapper .action.showcart:before {
+        margin: 0;
+    }
+    header.page-header.type14 .minicart-wrapper .action.showcart .counter.qty {
+        display: none;
+    }
+    header.page-header.type14 .block-search input {
+        min-width: 200px;
+    }
+}
+@media (min-width: 1680px) {
+    header.page-header.type14 .header.content > .logo {
+        margin-right: 120px;
+    }
+}
+header.page-header.type14 .search-category select {
+    color: #ccc;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
