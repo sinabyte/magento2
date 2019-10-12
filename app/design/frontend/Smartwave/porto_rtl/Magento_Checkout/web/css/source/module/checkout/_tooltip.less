@@ -8,6 +8,7 @@
 //  _____________________________________________
 
 @checkout-tooltip__hover__z-index: @tooltip__z-index; 
+
 @checkout-tooltip-icon-arrow__font-size: 10px;
 @checkout-tooltip-icon-arrow__left: -( @checkout-tooltip-content__padding + @checkout-tooltip-icon-arrow__font-size - @checkout-tooltip-content__border-width);
 
@@ -37,7 +38,7 @@
     .field-tooltip {
         cursor: pointer;
         position: absolute;
-        right: 0;
+        left: 0;
         top: 1px;
 
         &._active {
@@ -84,7 +85,7 @@
             .lib-css(padding, @checkout-tooltip-content__padding);
             .lib-css(width, @checkout-tooltip-content__width);
             display: none;
-            left: 38px;
+            right: 38px;
             position: absolute;
             text-transform: none;
             top: -9px;
@@ -98,18 +99,20 @@
                 @_size: @checkout-tooltip-icon-arrow__font-size,
                 @_color: @checkout-tooltip-content__background-color
                 );
-                .lib-css(left, @checkout-tooltip-icon-arrow__left);
+                .lib-css(right, @checkout-tooltip-icon-arrow__left);
                 .lib-css(top, @checkout-tooltip-content__padding);
+                border-right-color: transparent;
+                border-left-color: @checkout-tooltip-content__background-color;
                 content: '';
                 display: block;
                 position: absolute;
                 z-index: 3;
             }
             &:before {
-                .lib-css(border-right-color, @checkout-tooltip-content__active__border-color);
+                .lib-css(border-left-color, @checkout-tooltip-content__active__border-color);
             }
             &:after {
-                .lib-css(border-right-color, @checkout-tooltip-content__background-color);
+                .lib-css(border-left-color, @checkout-tooltip-content__background-color);
                 width: 1px;
                 z-index: 4;
             }
