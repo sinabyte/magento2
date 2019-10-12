@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+      <add id="UplandSoftwareWerx_BigDaddy::greetings" title="Greetings" translate="title" module="UplandSoftwareWerx_BigDaddy" parent="Magento_Backend::content" sortOrder="50" dependsOnModule="UplandSoftwareWerx_BigDaddy" resource="UplandSoftwareWerx_BigDaddy::greetings"/>
+      <add id="UplandSoftwareWerx_BigDaddy::greetings_helloworld" title="Hello World" translate="title" module="UplandSoftwareWerx_BigDaddy" parent="UplandSoftwareWerx_BigDaddy::greetings" sortOrder="10" dependsOnModule="UplandSoftwareWerx_BigDaddy" action="bigdaddy/helloworld" resource="UplandSoftwareWerx_BigDaddy::greetings"/>
+    </menu>
+</config>
