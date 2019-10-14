@@ -2,12 +2,12 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
         <title>
-            Greetings
+            s1n@byte s0ftw3rx
         </title>
     </head>
     <body>
         <referenceContainer name="content">
-            <block class="Magento\Backend\Block\Template" template="UplandSoftwareWerx_BigDaddy::helloworld.phtml"/>
+            <block class="Magento\Backend\Block\Template" template="UplandSoftwareWerx_BigDaddy::sandbox.phtml"/>
         </referenceContainer>
     </body>
 </page>

@@ -1,5 +1,5 @@
 <?php
-  namespace UplandSoftwareWerx\BigDaddy\Controller\Adminhtml\HelloWorld;
+  namespace UplandSoftwareWerx\BigDaddy\Controller\Adminhtml\SandBox;
 
   class Index extends \Magento\Backend\App\Action
   {
@@ -23,7 +23,7 @@
     }
 
     /**
-     * Load the page defined in view/adminhtml/layout/exampleadminnewpage_helloworld_index.xml
+     * Load the page defined in view/adminhtml/layout/exampleadminnewpage_sandbox_index.xml
      *
      * @return \Magento\Framework\View\Result\Page
      */
